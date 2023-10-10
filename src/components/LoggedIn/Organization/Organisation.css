@@ -1,0 +1,15 @@
+.two-column-container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .vertical-line {
+    width: 1px;
+    background-color: #ccc;
+  }
+  
