@@ -48,8 +48,14 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "styled-components": "^6.0.4",
+    "sweetalert2": "^11.7.23",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+  
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11" 
+   
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
