@@ -5,7 +5,7 @@ import moment from 'moment';
 
 const CurrentStats = () => {
   const { user } = useSelector((state) => state.auth);
-
+console.log(user)
   const data = [
     ['Work Force', 'Percentage'],
     ['HR', 10],

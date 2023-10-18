@@ -109,7 +109,7 @@ function FormDialog(props) {
 
   const onSubmit = (e) => {
     e.preventDefault();
- moreInfo()
+ 
     dispatch(register(RegistrationData,navigate));
     navigate('/welcome'); // Redirect to home route
      return close();
